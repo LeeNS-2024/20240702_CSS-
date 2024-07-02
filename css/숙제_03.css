@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* .logo {
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+} */
+
+table > div{
+  font-family: bold;
+  font-size: 50px;
+}
+
+
+.section {
+  flex: 1;
+  padding: 20px;
+  background-color: #d9f9d9;
+  border-bottom: 1px solid #ccc;
+ /*  box-sizing: border-box; */
+}
+
+#section-2 {
+  background-color: #f9d9d9;
+}
+
+#section-3 {
+  background-color: #d9d9f9;
+}
+
+.rounded-section {
+  flex: 1;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px 0;
+ /*  box-sizing: border-box; */
+}
+
+.grid-container {
+  padding: 20px;
+ /*  box-sizing: border-box; */
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+} */
+
+/* .grid > div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* .grid > div img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+.footer {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+ /*  box-sizing: border-box; */
+}
